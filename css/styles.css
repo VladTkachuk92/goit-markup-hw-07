@@ -59,6 +59,14 @@ img {
   padding-bottom: 94px;
 }
 
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 /* header */
 .header {
   border-bottom: 1px solid #eeeeee;
@@ -175,7 +183,7 @@ img {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -186,7 +194,7 @@ img {
   width: 696px;
 }
 
-.hero-button {
+.hero__button {
   background-color: var(--accent-color);
   color: var(--main-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -213,18 +221,18 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.about-section {
+.about-us__section {
   padding-bottom: 0;
 }
 
-.about-list {
+.about-us__list {
   display: flex;
   gap: 30px;
 }
-.about-item {
+.about-us__item {
   width: calc((100% - 90px) / 4);
 }
-.about-icons {
+.about-us__icons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,44 +242,31 @@ img {
   background-color: var(--background-section);
 }
 
-.about-title {
+.about-us__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.about-text {
+.about-us__text {
   color: var(--text-color);
   line-height: 1.71;
 }
 
 /* gallery */
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.features-list {
+
+.gallery__list {
   display: flex;
   gap: 30px;
 }
-.gallery-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--main-white);
-}
+
 
 .thumb {
   position: relative;
 }
-.thumb-text {
+.thumb__features{
   position: absolute;
   bottom: 0;
   width: 370px;
@@ -280,6 +275,15 @@ img {
   justify-content: center;
   align-items: center;
   background: rgba(47, 48, 58, 0.8);
+}
+
+.thumb__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-white);
 }
 
 /* team */
