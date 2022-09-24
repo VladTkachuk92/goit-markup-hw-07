@@ -1,0 +1,27 @@
+body {
+    color: var(--main-color);
+    background-color: var(--main-white);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* outline: 2px solid orange;
+    outline-offset: -2px; */
+  }
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+  }
