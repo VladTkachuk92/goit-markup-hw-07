@@ -209,6 +209,10 @@ img {
 }
 
 /* about */
+.about-us {
+  padding-bottom: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -220,9 +224,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.about-us__section {
-  padding-bottom: 0;
 }
 
 .about-us__list {
